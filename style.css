@@ -1,0 +1,185 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
+}
+
+/* Global Styles */
+body {
+  background-color: #f0f4f8;
+  font-family: 'Arial', sans-serif;
+  color: #264653;
+}
+
+/* Navbar Styles */
+.navbar {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  background-color: #264653; /* Retained the darker background color from the first file */
+}
+
+.logo img {
+  height: 50px;
+  max-width: 100%;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: 1px solid #6c757d; /* Retained the border from the first file */
+  color: #264653;
+  background-color: #fff;
+  outline: none;
+}
+
+.search-container button {
+  padding: 10px 20px;
+  background-color: #2a9d8f; /* Retained the green color from the first file */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-container button:hover {
+  background-color: #1f776d;
+}
+
+/* Main Heading Styles */
+.main-heading {
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.main-heading h1 {
+  font-size: 36px;
+  color: #2a9d8f; /* Retained the green color from the first file */
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  margin-top: 20px;
+}
+
+/* News Card Styles */
+.news-card {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+
+.news-card:hover {
+  transform: translateY(-5px); /* Added hover effect */
+}
+
+.news-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.news-content {
+  padding: 20px;
+}
+
+.news-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #264653; /* Retained the color from the first file */
+  font-weight: bold;
+}
+
+.news-description {
+  font-size: 16px;
+  color: #6c757d; /* Combined styles from both files */
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.news-meta {
+  font-size: 14px;
+  color: #999; /* Combined styles from both files */
+  margin-bottom: 15px;
+}
+
+.news-link {
+  padding: 10px 15px;
+  background-color: #e76f51; /* Retained the color from the first file */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.news-link:hover {
+  background-color: #d25e44; /* Retained the color from the first file */
+}
+
+/* Outer Section Styles */
+.outer-section {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #264653; /* Retained the darker color from the first file */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .news-card {
+    width: 100%;
+  }
+}
