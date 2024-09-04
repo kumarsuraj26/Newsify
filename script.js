@@ -122,14 +122,14 @@ function load_data() {
 }
 
 async function GetsNews() {
-  const apiKey = "d166e3ca3a4348ce8596089ded1468cb";
+  const apiKey = "d166e3ca3a4348ce8596089ded1468cb"; // Ensure the API key is valid
 
   let q = document.getElementById("search");
-  let query = q.value;
+  let query = q.value.trim();
 
   let url = "";
   if (query) {
-    url = `https://newsapi.org/v2/everything?q=${query}&apiKey=${apiKey}`;
+    url = `https://newsapi.org/v2/everything?q=${encodeURIComponent(query)}&apiKey=${apiKey}`;
   } else {
     url = `https://newsapi.org/v2/everything?q=all&apiKey=${apiKey}`;
   }
@@ -146,6 +146,7 @@ async function GetsNews() {
     load_data();
   } catch (error) {
     console.error("Error fetching the news:", error);
+    // Optionally, display a user-friendly error message
   }
 }
 
