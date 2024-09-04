@@ -2,7 +2,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
+  box-sizing: border-box;
 }
 
 /* Global Styles */
@@ -19,7 +19,7 @@ body {
   justify-content: space-between;
   align-items: center;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
-  background-color: #264653; /* Retained the darker background color from the first file */
+  background-color: #264653;
 }
 
 .logo img {
@@ -37,7 +37,7 @@ body {
   border-radius: 5px;
   margin-right: 10px;
   font-size: 16px;
-  border: 1px solid #6c757d; /* Retained the border from the first file */
+  border: 1px solid #6c757d;
   color: #264653;
   background-color: #fff;
   outline: none;
@@ -45,7 +45,7 @@ body {
 
 .search-container button {
   padding: 10px 20px;
-  background-color: #2a9d8f; /* Retained the green color from the first file */
+  background-color: #2a9d8f;
   color: white;
   border: none;
   border-radius: 5px;
@@ -65,9 +65,8 @@ body {
 
 .main-heading h1 {
   font-size: 36px;
-  color: #2a9d8f; /* Retained the green color from the first file */
+  color: #2a9d8f;
   text-align: center;
-  font-family: 'Arial', sans-serif;
   margin-top: 20px;
 }
 
@@ -84,7 +83,7 @@ body {
 }
 
 .news-card:hover {
-  transform: translateY(-5px); /* Added hover effect */
+  transform: translateY(-5px);
 }
 
 .news-image {
@@ -100,26 +99,26 @@ body {
 .news-title {
   font-size: 20px;
   margin-bottom: 10px;
-  color: #264653; /* Retained the color from the first file */
+  color: #264653;
   font-weight: bold;
 }
 
 .news-description {
   font-size: 16px;
-  color: #6c757d; /* Combined styles from both files */
+  color: #6c757d;
   margin-bottom: 15px;
   line-height: 1.5;
 }
 
 .news-meta {
   font-size: 14px;
-  color: #999; /* Combined styles from both files */
+  color: #999;
   margin-bottom: 15px;
 }
 
 .news-link {
   padding: 10px 15px;
-  background-color: #e76f51; /* Retained the color from the first file */
+  background-color: #e76f51;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -129,7 +128,7 @@ body {
 }
 
 .news-link:hover {
-  background-color: #d25e44; /* Retained the color from the first file */
+  background-color: #d25e44;
 }
 
 /* Outer Section Styles */
@@ -144,7 +143,7 @@ body {
 
 /* Footer Styles */
 .footer {
-  background-color: #264653; /* Retained the darker color from the first file */
+  background-color: #264653;
   color: #fff;
   padding: 20px;
   text-align: center;
